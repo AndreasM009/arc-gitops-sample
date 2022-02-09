@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
-namespace: arc-dev
 metadata:
+  namespace: arc-dev
   labels:
     run: nginx
   name: nginx
